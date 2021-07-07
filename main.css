@@ -297,17 +297,12 @@ div[class="fi-*"] {
   margin: 0;
 }
 
-/* Add a red background color to navigation links on hover */
-.navbar a:hover, .subnav:hover .subnavbtn {
-  background-color: #eee;
-}
-
 /* Style the subnav content - positioned absolute */
 .subnav-content {
   display: none;
   position: absolute;
   left: 0;
-  background-color: #eee;
+  background-color: inherit;
   width: 100%;
   z-index: 1;
 }
