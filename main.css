@@ -65,7 +65,8 @@ a:hover {
     min-width: 80%;
     background-image: url("/sand_logo.jpg");
     background-repeat: repeat;
-    margin-top: 2.6em;
+    /*margin-top: 2.6em;*/
+        margin-top: 5em;
     min-height: 20em;
 }
 
