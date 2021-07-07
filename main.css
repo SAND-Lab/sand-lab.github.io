@@ -289,12 +289,12 @@ div[class="fi-*"] {
 }
 
 .dropdown .dropbtn {
-  font-size: 16px;  
+  font-size: 17px;  
   border: none;
   outline: none;
-  color: white;
+  color: #888;
   padding: 14px 16px;
-  background-color: inherit;
+  background-color: #eee;
   font-family: inherit;
   margin: 0;
 }
