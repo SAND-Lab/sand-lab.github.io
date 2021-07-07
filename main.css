@@ -287,15 +287,15 @@ div[class="fi-*"] {
 /* Navbar container */
 .navbar {
   overflow: hidden;
-  background-color: #333;
-  font-family: Arial;
+  background-color: #888;
+  font-family: inherit;
 }
 
 /* Links inside the navbar */
 .navbar a {
   float: left;
   font-size: 16px;
-  color: white;
+  color: #222;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -309,10 +309,10 @@ div[class="fi-*"] {
 
 /* Dropdown button */
 .dropdown .dropbtn {
-  font-size: 16px;
+  font-size: 17px;
   border: none;
   outline: none;
-  color: white;
+  color: #;
   padding: 14px 16px;
   background-color: inherit;
   font-family: inherit; /* Important for vertical align on mobile phones */
