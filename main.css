@@ -287,10 +287,10 @@ div[class="fi-*"] {
 
 /* Subnav button */
 .subnav .subnavbtn {
-  font-size: 17;
+  font-size: inherit;
   border: none;
   outline: none;
-  color: #000088;
+  color: #888;
   padding: 14px 16px;
   background-color: inherit;
   font-family: inherit;
