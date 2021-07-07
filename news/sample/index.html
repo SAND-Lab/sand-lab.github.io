@@ -1,4 +1,109 @@
-<div class="topimg"></div>
+<!DOCTYPE html>
+<html lang="en-uk">
+    <head>
+         
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Synapse and Network Development Group</title>
+        <style>
+
+    html, body {
+        font-family: 'Raleway', sans-serif;
+    }
+
+    h1, h2, h3 {
+        font-family: 'Montserrat', sans-serif;
+    }
+
+</style>
+
+
+<link rel="stylesheet" href="https://sand-lab.github.io/main.css">
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway">
+
+<script defer src="https://friconix.com/cdn/friconix.js"> </script>
+
+<script defer>
+ 
+function menu() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className = "topnav responsive slidedown";
+  } else {
+    x.className = "topnav";
+  }
+}
+
+function menu_off() {
+  var x = document.getElementById("myTopnav");
+  x.className = "topnav";
+}
+
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  var topbutton = document.getElementById("topbutton");
+  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+    topbutton.style.visibility = "visible";
+    topbutton.style.color = "#666";
+    topbutton.style.transform = "translateX(-50%)";
+  } else {
+    topbutton.style.visibility = "hidden";
+    topbutton.style.color = "#fff";
+    topbutton.style.transform = "translateX(-400%)";
+  }
+}
+
+
+function topFunction() {
+  document.body.scrollTop = 0; 
+  document.documentElement.scrollTop = 0; 
+}
+
+</script> 
+
+ <meta name="generator" content="Hugo 0.54.0" />
+   </head>
+
+    <body>
+         
+
+        <div class="topnav" id="myTopnav">
+            <div class="topnavcontainer">
+            <div class="topnavleft">
+            
+            <a href="/" class="active"><span style="margin-right:0.3em;"><i class="fi-xnluxl-home-small-solid"></i></span> Home</a>
+            
+            <a href="/people/" class=""><span style="margin-right:0.3em;"><i class="fi-xtluxl-brain-alt"></i></span> Members</a>
+                
+           <!--<a href="/people/" class=""><span style="margin-right:0.3em;"><i class="fi-xnluxl-user-circle-solid"></i></span> Members</a>-->
+            
+            <a href="/publications/" class=""><span style="margin-right:0.3em;"><i class="fi-xnluxl-network-wide"></i></span> Projects</a>
+            
+            <a href="/contact/" class=""><span style="margin-right:0.3em;"><i class="fi-xnluxl-synapse-wide"></i></span> Contact</a>
+            
+           
+            </div>
+
+            <div class="topnavright">
+       
+            
+            <a href="https://github.com/sand-lab/"><i class="fi-xnsxxl-github"></i></a>
+            
+            
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="menu()">
+                <i class="fi-xnluxl-three-bars"></i>
+            </a>
+            </div>
+        </div>
+            
+            
+        <div class="topimg"></div>
         <div class="topbuttonbar"></div>
         <div class="topbuttonbar_transparent"></div>
         <div class="topbutton" onclick="topFunction()" id="topbutton"><i class="fi-ctlux2-chevron"></i></div>
@@ -8,37 +113,18 @@
 
     <div><a href="/" style="font-size: 200%; color: #aaaaaa;"><i class="fi-ctllxm-chevron"></i></a></div>
 
-    <h2>New paper accepted at Nature Neuroscience, with Jake Stroud, Mason Porter and Tim P. Vogels </h2> 
-    <h3>Motor primitives in space and time via targeted gain modulation in cortical networks </h3> 
+    <h2>News headline 1 </h2> 
+    <h3>Short description</h3> 
   
 
     <br> <div class="text-justify">
 
-<p>Congratulations <a href="https://jakepstroud.github.io">Jake</a> on a great
-PhD thesis, and a cool paper now in press at Nature Neuroscience!</p>
+<p>Actual news headline</p>
 
 <h3 id="abstract">Abstract</h3>
 
-<p>Motor cortex (M1) exhibits a rich repertoire of activities to
-support the generation of complex movements. Although recent neuronal network
-models capture many qualitative aspects of M1 dynamics, they can generate only
-a few distinct movements. Additionally, it is unclear how M1 efficiently
-controls movements over a wide range of shapes and speeds. We demonstrate that
-simple modulation of neuronal input &mdash; output gains in recurrent neuronal
-network models with fixed connectivity can dramatically reorganize neuronal
-activity and consequently downstream muscle outputs. Consistent with the
-observation of diffuse neuromodulatory projections to M1, we show that a
-relatively small number of modulatory control units provide sufficient
-flexibility to adjust high-dimensional network activity using a simple
-reward-based learning rule.  Furthermore, novel movements can be assembled from
-previously-learned primitives and we can separately change movement speed while
-preserving movement shape. Our results provide a new perspective on the role of
-modulatory systems in controlling recurrent cortical activity.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
 
-<h3 id="corresponding-talk-at-cosyne-2018">Corresponding talk at COSYNE 2018</h3>
-
-<div style="position:relative;height:0;padding-bottom:56.26%">
-<iframe src="https://www.youtube.com/embed/JJ-B0_PJ7jA?ecver=2" style="position:absolute;width:100%;height:100%;left:0" width="640" height="360" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
 </div>
 
     
