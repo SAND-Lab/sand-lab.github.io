@@ -1,0 +1,280 @@
+* {
+    font-weight: normal;
+    box-sizing: border-box;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #ddd;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #000088;
+    font-weight: normal;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #000088;
+    font-weight: normal;
+}
+
+a:hover {
+    color: #0000aa;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.main {
+    font-size: 12pt;
+    padding-top: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    margin: auto;
+    margin-top: 5em;
+    max-width: 50em;
+}
+
+.flex-container {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.person {
+    padding: 1em;
+    max-width: 18em;
+}
+
+.topimg {
+    min-width: 100%;
+    background-image: url("/front.jpg");
+    background-repeat: repeat;
+    margin-top: 2.6em;
+    min-height: 10em;
+}
+
+.topbuttonbar {
+    position: fixed;
+    min-height: 4.5em;
+    width: 100%;
+    bottom: 0em;
+    left: 0em;
+    background: #fff;
+    padding: 15px;
+}
+
+.topbuttonbar_transparent {
+    position: fixed;
+    min-height: 3em;
+    width: 100%;
+    bottom: 4.5em;
+    left: 0em;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 255));
+}
+
+.topbutton {
+    position: fixed;
+    bottom: 0.5em;
+    left: 50%;
+    transform: translateX(-400%);
+    font-size: 100%;
+    visibility: hidden;
+    z-index: 99;
+    padding: 0;
+    border-radius: 50%;
+    transition: transform 0.5s ease 0.01s, color 0.5s linear 0.01s;
+}
+
+.topbutton:hover {
+    cursor: pointer;
+}
+
+.topnav {
+    background-color: #eee;
+    border-bottom: 1px solid #ccc;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-width: 100%;
+    max-height: 3.2em;
+    text-align: center;
+}
+
+.topnav a {
+    color: #888;
+    float: left;
+    display: block;
+    align-items: bottom;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnavcontainer {
+    margin: auto;
+    max-width: 55em;
+    min-height: 2.6em;
+}
+
+.topnav .topnavleft {
+    padding-left: 0em;
+}
+
+.topnav .topnavright {
+    padding-right: 0em;
+}
+
+.topnav .topnavleft a {
+    float: left;
+    /* margin-right: 1em; */
+}
+
+.topnav .topnavright a {
+    float: right;
+}
+
+.topnav a:hover {
+    color: #222;
+}
+
+.topnav a.active {
+    color: #222;
+}
+
+.topnav .icon {
+    margin-top: 0.3em;
+    padding: 0.2em;
+    border-radius: 5px;
+    display: none;
+}
+
+.slidedown {
+    max-height: 20em;
+    -webkit-transition: max-height 0.3s ease-in;
+    -moz-transition: max-height 0.3s ease-in;
+    -o-transition: max-height 0.3s ease-in;
+    transition: max-height 0.3s ease-in;
+}
+
+@media screen and (max-width: 800px) {
+    .topnav a {
+        display: none;
+    }
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+    .topnav.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    .topnav.responsive .topnavright a {
+        float: left;
+        display: block;
+        text-align: left;
+    }
+    .topnav.responsive.slidedown .icon {
+        background: #ccc;
+    }
+}
+
+
+/*footer*/
+
+.copyright {
+    margin: 15px 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+#map {
+    height: 30em;
+    width: 100%;
+}
+
+.tag_list {
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+.tag {
+    display: inline-block;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    font-size: 100%;
+    background-color: #e5e5e5;
+    border-radius: 20px;
+    padding: 0.4em 1em;
+}
+
+.tag a {
+    color: #555;
+}
+
+.tag:hover {
+    background-color: #d5d5d5;
+}
+
+.news .item {
+    margin-bottom: 1em;
+}
+
+.news .item .blurb {
+    color: #888;
+}
+
+.publication_type {
+  background-color: #ddd;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+.friconix {
+    margin-top: 4em;
+    margin-bottom: 1em;
+    padding-top: 1em;
+    width: 10em;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 1px solid #aaaaaa;
+    color: #aaaaaa;
+    font-size: 100%;
+}
+
+div[class="fi-*"] {
+    padding-bottom: 0.2em;
+}
+
+.text-justify {
+    text-align: justify;
+}
