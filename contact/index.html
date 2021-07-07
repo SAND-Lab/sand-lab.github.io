@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en-uk">
+    <head>
+         
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Synapse and Network Development Group</title>
+        <style>
+
+    html, body {
+        font-family: 'Raleway', sans-serif;
+    }
+
+    h1, h2, h3 {
+        font-family: 'Montserrat', sans-serif;
+    }
+
+</style>
+
+
+<link rel="stylesheet" href="https://sand-lab.github.io/main.css">
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway">
+
+<script defer src="https://friconix.com/cdn/friconix.js"> </script>
+
+<script defer>
+ 
+function menu() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className = "topnav responsive slidedown";
+  } else {
+    x.className = "topnav";
+  }
+}
+
+function menu_off() {
+  var x = document.getElementById("myTopnav");
+  x.className = "topnav";
+}
+
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  var topbutton = document.getElementById("topbutton");
+  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+    topbutton.style.visibility = "visible";
+    topbutton.style.color = "#666";
+    topbutton.style.transform = "translateX(-50%)";
+  } else {
+    topbutton.style.visibility = "hidden";
+    topbutton.style.color = "#fff";
+    topbutton.style.transform = "translateX(-400%)";
+  }
+}
+
+
+function topFunction() {
+  document.body.scrollTop = 0; 
+  document.documentElement.scrollTop = 0; 
+}
+
+</script> 
+
+ <meta name="generator" content="Hugo 0.54.0" />
+   </head>
+
+    <body>
+         
+
+        <div class="topnav" id="myTopnav">
+            <div class="topnavcontainer">
+            <div class="topnavleft">
+            
+            <a href="/" class="active"><span style="margin-right:0.3em;"><i class="fi-xnluxl-home-small-solid"></i></span> Home</a>
+            
+            <a href="/people/" class=""><span style="margin-right:0.3em;"><i class="fi-xtluxl-brain-alt"></i></span> Members</a>
+                
+           <!--<a href="/people/" class=""><span style="margin-right:0.3em;"><i class="fi-xnluxl-user-circle-solid"></i></span> Members</a>-->
+            
+            <a href="/publications/" class=""><span style="margin-right:0.3em;"><i class="fi-xnluxl-network-wide"></i></span> Projects</a>
+            
+            <a href="/contact/" class=""><span style="margin-right:0.3em;"><i class="fi-xnluxl-synapse-wide"></i></span> Contact</a>
+            
+           
+            </div>
+
+            <div class="topnavright">
+       
+            
+            <a href="https://github.com/sand-lab/"><i class="fi-xnsxxl-github"></i></a>
+            
+            
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="menu()">
+                <i class="fi-xnluxl-three-bars"></i>
+            </a>
+            </div>
+        </div>
+
+        <div class="topimg"></div>
+        <div class="topbuttonbar"></div>
+        <div class="topbuttonbar_transparent"></div>
+        <div class="topbutton" onclick="topFunction()" id="topbutton"><i class="fi-ctlux2-chevron"></i></div>
+        <div class="main" id="main" style="margin-top:3em;" onclick="menu_off()">
+<div>
+  
+    <h1>Contact us</h1>
+
+    <h4> Synapse and Network Development Group, Physiological Laboratory, Department of Physiology, Development and Neuroscience, CB2 3EG Cambridge, UK</h4>
+    <h4><i class="fi-xnluxl-envelope" style="padding-right: 1em;"></i><a href="mailto:sbm33@cam.ac.uk"> Susanna Mierau, MD DPhil (sbm33@cam.ac.uk)</a></h4>
+
+    <br>
+    
+    <div id="mapdiv" style="height: 30em; max-width: 100%;"></div>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.4.3/css/ol.css" type="text/css">
+    <script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.4.3/build/ol.js"></script>
+    <script type="text/javascript">
+      var map = new ol.Map({
+        target: 'mapdiv',
+        layers: [
+          new ol.layer.Tile({
+            source: new ol.source.OSM()
+          })
+        ],
+        view: new ol.View({
+          center: ol.proj.fromLonLat([ 0.122960 ,  52.2024053 ]),
+          zoom:  16 
+        })
+      });
+    </script>
+
+   </div> 
+
+    </div> 
+
+    <div class="friconix"><center><a href="http://friconix.com" style="color: #999999;">Icons by <i class="fi-lnsuxl-friconix"></i></a></center></div>
+    </body>
+
+
+</html>
