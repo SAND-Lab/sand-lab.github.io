@@ -300,8 +300,8 @@ div[class="fi-*"] {
   margin: 0;
 }
 
-.navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
+.dropdown a:hover {
+  color: #222;
 }
 
 
