@@ -61,14 +61,15 @@ a:hover {
     max-width: 18em;
 }
 
-.topimg {
-    max-width: 50%;
+/* Here would be the top background image */
+/*.topimg {
+    min-width: 100%;
     background-image: url("/graphics/sand_logo.jpg");
-    /*background-repeat: repeat;*/
+    background-repeat: repeat;
     margin-top: 2.6em;
     max-height: 5em;
     min-height: 2.5em;
-}
+}*/
 
 .topbuttonbar {
     position: fixed;
