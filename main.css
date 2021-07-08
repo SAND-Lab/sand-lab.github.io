@@ -62,12 +62,12 @@ a:hover {
 }
 
 .topimg {
-    min-width: 80%;
+    min-width: 100%;
     background-image: url("/bgnd.png");
     background-repeat: repeat;
     /*margin-top: 2.6em;*/
         margin-top: 5em;
-    min-height: 20em;
+    min-height: 10em;
 }
 
 .topbuttonbar {
