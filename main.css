@@ -64,10 +64,10 @@ a:hover {
 .topimg {
     max-width: 50%;
     background-image: url("/graphics/sand_logo.jpg");
-    background-repeat: repeat;
+    /*background-repeat: repeat;*/
     /*margin-top: 2.6em;*/
-        margin-top: 5em;
-    min-height: 100%;
+    margin-top: 5em;
+    max-height: 10%;
 }
 
 .topbuttonbar {
