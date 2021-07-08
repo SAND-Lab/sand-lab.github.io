@@ -63,7 +63,7 @@ a:hover {
 
 .topimg {
     min-width: 80%;
-    background-image: url("/sand_logo.jpg");
+    background-image: url("/bgnd.png");
     background-repeat: repeat;
     /*margin-top: 2.6em;*/
         margin-top: 5em;
