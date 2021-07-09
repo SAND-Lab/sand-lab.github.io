@@ -1,174 +1,193 @@
 <!DOCTYPE html>
 <html lang="en-uk">
-    <head>
-         <link rel="icon" type="image/png" href="/graphics/como.png" />
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Synapse and Network Development Group</title>
-        <style>
+ <head>
+  <link rel="icon" type="image/png" href="/graphics/como.png" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Synapse and Network Development Group</title>
+  <style>
 
-    html, body {
-        font-family: 'Raleway', sans-serif;
-    }
+   html, body {
+       font-family: 'Raleway', sans-serif;
+   }
 
-    h1, h2, h3 {
-        font-family: 'Montserrat', sans-serif;
-    }
+   h1, h2, h3 {
+       font-family: 'Montserrat', sans-serif;
+   }
+  </style>
 
-</style>
+  <link rel="stylesheet" href="https://sand-lab.github.io/main.css" />
 
+  <link
+   rel="stylesheet"
+   href="https://fonts.googleapis.com/css2?family=Montserrat"
+  />
+  <link
+   rel="stylesheet"
+   href="https://fonts.googleapis.com/css2?family=Raleway"
+  />
 
-<link rel="stylesheet" href="https://sand-lab.github.io/main.css">
+  <script defer src="https://friconix.com/cdn/friconix.js"></script>
 
+  <script defer>
 
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway">
+   function menu() {
+     var x = document.getElementById("myTopnav");
+     if (x.className === "topnav") {
+       x.className = "topnav responsive slidedown";
+     } else {
+       x.className = "topnav";
+     }
+   }
 
-<script defer src="https://friconix.com/cdn/friconix.js"> </script>
-
-<script defer>
- 
-function menu() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className = "topnav responsive slidedown";
-  } else {
-    x.className = "topnav";
-  }
-}
-
-function menu_off() {
-  var x = document.getElementById("myTopnav");
-  x.className = "topnav";
-}
-
-
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-  var topbutton = document.getElementById("topbutton");
-  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-    topbutton.style.visibility = "visible";
-    topbutton.style.color = "#666";
-    topbutton.style.transform = "translateX(-50%)";
-  } else {
-    topbutton.style.visibility = "hidden";
-    topbutton.style.color = "#fff";
-    topbutton.style.transform = "translateX(-400%)";
-  }
-}
+   function menu_off() {
+     var x = document.getElementById("myTopnav");
+     x.className = "topnav";
+   }
 
 
-function topFunction() {
-  document.body.scrollTop = 0; 
-  document.documentElement.scrollTop = 0; 
-}
+   window.onscroll = function() {scrollFunction()};
 
-</script> 
+   function scrollFunction() {
+     var topbutton = document.getElementById("topbutton");
+     if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+       topbutton.style.visibility = "visible";
+       topbutton.style.color = "#666";
+       topbutton.style.transform = "translateX(-50%)";
+     } else {
+       topbutton.style.visibility = "hidden";
+       topbutton.style.color = "#fff";
+       topbutton.style.transform = "translateX(-400%)";
+     }
+   }
 
- <meta name="generator" content="Hugo 0.54.0" />
-   </head>
 
-    <body>
-         
+   function topFunction() {
+     document.body.scrollTop = 0;
+     document.documentElement.scrollTop = 0;
+   }
+  </script>
 
-        <div class="topnav" id="myTopnav">
-            <div class="topnavcontainer">
-            <div class="topnavleft">
-            
-            <a href="/" class=""><span style="margin-right:0.3em;"><i class="fi-xnluxl-home-small-solid"></i></span> Home</a>
-            
-            <a href="/people/" class="active"><span style="margin-right:0.3em;"><i class="fi-xtluxl-brain-alt"></i></span> Members</a>
-                
-           <!--<a href="/people/" class=""><span style="margin-right:0.3em;"><i class="fi-xnluxl-user-circle-solid"></i></span> Members</a>-->
-                
+  <meta name="generator" content="Hugo 0.54.0" />
+ </head>
 
-            <a href="/projects/" class=""><span style="margin-right:0.3em;"><i class="fi-xnluxl-network-wide"></i></span> Projects</a>
-            
-                
-                
-            <a href="/contact/" class=""><span style="margin-right:0.3em;"><i class="fi-xnluxl-synapse-wide"></i></span> Contact</a>
-            
-           
-            </div>
+ <body>
+  <div class="topnav" id="myTopnav">
+   <div class="topnavcontainer">
+    <div class="topnavleft">
+     <a href="/" class=""
+      ><span style="margin-right:0.3em;"
+       ><i class="fi-xnluxl-home-small-solid"></i
+      ></span>
+      Home</a
+     >
 
-            <div class="topnavright">
+     <a href="/people/" class="active"
+      ><span style="margin-right:0.3em;"
+       ><i class="fi-xtluxl-brain-alt"></i
+      ></span>
+      Members</a
+     >
+
+     <!--<a href="/people/" class=""><span style="margin-right:0.3em;"><i class="fi-xnluxl-user-circle-solid"></i></span> Members</a>-->
+
+     <a href="/projects/" class=""
+      ><span style="margin-right:0.3em;"
+       ><i class="fi-xnluxl-network-wide"></i
+      ></span>
+      Projects</a
+     >
+
+     <a href="/contact/" class=""
+      ><span style="margin-right:0.3em;"
+       ><i class="fi-xnluxl-synapse-wide"></i
+      ></span>
+      Contact</a
+     >
+    </div>
+
+    <div class="topnavright">
+     <a href="https://github.com/sand-lab/"><i class="fi-xnsxxl-github"></i></a>
+    </div>
+    <a href="javascript:void(0);" class="icon" onclick="menu()">
+     <i class="fi-xnluxl-three-bars"></i>
+    </a>
+   </div>
+  </div>
+
+  <div class="topimg"></div>
+  <div class="topbuttonbar"></div>
+  <div class="topbuttonbar_transparent"></div>
+  <div class="topbutton" onclick="topFunction()" id="topbutton">
+   <i class="fi-ctlux2-chevron"></i>
+  </div>
+  <div class="main" id="main" style="margin-top:3em;" onclick="menu_off()">
+   <h1>Current lab members</h1>
+   <div class="flex-container">
+    <div class="person">
+     <a href="/people/susanna/">
+      <div>
+       <img
+        class="img-circle"
+        style="height: 6em;"
+        src="/people/susanna/susanna.png"
+       />
+      </div>
+
+      <p>Susanna Mierau</p></a
+     >
+    </div>
+
+    <div class="person">
+     <a href="/people/jeremy/">
+      <div>
+       <img
+        class="img-circle"
+        style="height: 6em;"
+        src="/people/jeremy/jeremy.jpeg"
+       />
+      </div>
+
+      <p>Jeremy Chabros</p></a
+     >
+    </div>
        
-            
-            <a href="https://github.com/sand-lab/"><i class="fi-xnsxxl-github"></i></a>
-            
-            
-            </div>
-            <a href="javascript:void(0);" class="icon" onclick="menu()">
-                <i class="fi-xnluxl-three-bars"></i>
-            </a>
-            </div>
-        </div>
+    <div class="person">
+     <a href="/people/alex/">
+      <div>
+       <img
+        class="img-circle"
+        style="height: 6em;"
+        src="/people/alex/alex.jpg"
+       />
+      </div>
 
-        <div class="topimg"></div>
-        <div class="topbuttonbar"></div>
-        <div class="topbuttonbar_transparent"></div>
-        <div class="topbutton" onclick="topFunction()" id="topbutton"><i class="fi-ctlux2-chevron"></i></div>
-        <div class="main" id="main" style="margin-top:3em;" onclick="menu_off()">
-
-
-
-
-    <h1>Current lab members</h1>
-    <div class="flex-container">
-        
-        <div class="person"> 
-
-  
-
-<a href="/people/susanna/">
-
-<div><img class="img-circle" style="height: 6em;" src="/people/susanna/susanna.png"/></div>
-
-<p>Susanna Mierau</p></a>
-   
- </div>
-        
-         <div class="person"> 
-             
-<a href="/people/jeremy/">
-
-<div><img class="img-circle" style="height: 6em;" src="/people/jeremy/jeremy.jpeg"/></div>
-
-<p>Jeremy Chabros</p></a>
-   
- </div>
-        
-        
-        
-        <div class="person">
-   
- </div>
-        
-    </div>
-    <br>
-    <hr>
-    <h2>Collaborators</h2>
-    <div class="flex-container">
-    
-    <div class="person"> 
-
- <a href="link placeholder"> 
-Collaborator
-<br>
- <span style="color: gray;"> (Location/Lab) </span> 
- </a> 
- 
- </div>
-    
-    
+      <p>Jeremy Chabros</p></a
+     >
     </div>
 
+    <div class="person"></div>
+   </div>
+   <br />
+   <hr />
+   <h2>Collaborators</h2>
+   <div class="flex-container">
+    <div class="person">
+     <a href="link placeholder">
+      Collaborator
+      <br />
+      <span style="color: gray;"> (Location/Lab) </span>
+     </a>
+    </div>
+   </div>
+  </div>
 
-    </div> 
-
-    <div class="friconix"><center><a href="http://friconix.com" style="color: #999999;">Icons by <i class="fi-lnsuxl-friconix"></i></a></center></div>
-    </body>
-
-
+  <div class="friconix">
+   <center>
+    <a href="http://friconix.com" style="color: #999999;"
+     >Icons by <i class="fi-lnsuxl-friconix"></i
+    ></a>
+   </center>
+  </div>
+ </body>
 </html>
