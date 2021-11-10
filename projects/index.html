@@ -113,7 +113,7 @@ function topFunction() {
            <img src="https://sand-lab.github.io/graphics/sand_logo.jpg" alt="Lab logo" style="width:30%">
         <h1>Projects</h1>
 
-            <p> Our aim is to understanding how altered synaptic function in neurodevelopmental disorders changes the development of functional networks at the cellular scale.
+            <p> Our aim is to elucidate how synaptic dysfunction in neurodevelopmental disorders alters the development of functional networks at the cellular scale.
                 Our approach integrates tools from neurophysiology, neuroanatomy, stem cell biology, genomics, computational neuroscience, applied math, engineering and computer science.
                 We are always looking for team members and collaborators to join us in investigating network development at the cellular scale.</p>
                 
@@ -125,11 +125,12 @@ function topFunction() {
           
            Loss of Mecp2, the cause of Rett syndrome and some cases of autism, leads to a devastating decline in cognitive, motor and sensory function
             in infancy.  Mecp2-deficient mice also show a postnatal decline in behavioral, motor and sensory function.  Investigations at the synaptic level reveal that loss of Mecp2 has
-            opposing effects on the development of excitatory and inhibitory neuronal populations (Mierau et al, Biol Psych, 2015 epub).  To understand how these synaptic changes alter 
-            network development at the cellular scale, we are using microelectrode array (MEA) recording and two-photon calcium imaging of Mecp2-deficient and wild-type neurons to 
-            compare network activity in primary cortical cultures.  We used methods from network science, including graph and control theory, to understand the effects on the 
-            topology of the network and roles of individual neurons in the network activity over early development in vitro.  We are also investigating network dynamics to see whether there
-            are changes in the network topology and/or nodal roles within our recordings.  This research will help us understanding how information processing is impaired at the cellular scale and provide a cellular scale platform for testing novel therapeutic strategies.  Our collaborators include: 
+            opposing effects on the development of excitatory and inhibitory neuronal populations (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4670611/">Mierau et al, Biol Psych, 2015 epub</a>).  To understand how these synaptic changes alter 
+            network development at the cellular scale, we are using microelectrode array (MEA) recording and two-photon calcium imaging of spontaneous network activity in Mecp2-deficient and wild-type  
+            cortical cultures.  We used methods from network science, including graph and control theory, to understand the effects on the 
+            topology of the network and roles of individual neurons in the network activity over early development in vitro.  We are also investigating network dynamics to determine whether there
+            are changes in the network topology and/or nodal roles on the seconds-to-minutes scale our recordings.  This research will help us understanding how information processing is impaired at the cellular scale 
+            and provide a cellular-scale platform for testing novel therapeutic strategies.  Our collaborators include: 
             Bianca Dumitrascu, Stephen Eglen, Guillaume Hennequin, Ole Paulsen, Manuel Schroeter, Tim Sit, and Sinead Williamson.  This work is supported by the
             American Academy of Neurology (S.M.) and Medical Research Council DTP (A.D.).
     </p>
@@ -143,7 +144,7 @@ function topFunction() {
            Human cerebral organoids offer a human-derived cellular platform for investigating underlying mechanisms of neurologic disease and testing novel therapeutic
 strategies.  From our studies in Mecp2-deficient mice, we know that network development is altered.  Through an interdisciplinary collaboration with Andras Lakatos, 
 Madeline Lancaster, and Ole Paulsen, we are generating novel Mecp2-deficient air-liquid interface cerebral organoids (ALI-COs).  We will use these organoids to study
-network dysfunction and how this may contribute to epilepsy and cognitive dysfunction in Rett syndrome.  This work is supported by the Evelyn Trust.  
+network dysfunction in human-derived cortical networks and how this may contribute to epilepsy and cognitive dysfunction in Rett syndrome.  This work is supported by the Evelyn Trust.  
 Image: MEA recording from an ALI-CO and network plot we made for Giandomenico, et al. (2019) Nat Neurosci (see published collaborations below).
     </p>
          <img src="ALICO.jpg">
@@ -166,9 +167,9 @@ Image: MEA recording from an ALI-CO and network plot we made for Giandomenico, e
 
     <p><a href="">Cellular scale networks analysis pipeline</a></br>
     
-            We have created a computational pipeline for analysing our cellular scale networks.  This brings together methods from many areas of network science including
-methods used to analyse regional or whole brain networks to apply these metrics to our MEA recordings and calcium imaging of spontaneous activity in our neuronal cultures.
-We are currently testing our pipeline with data from other groups. For our calcium imaging network analysis, we have been collaborating the ALFA group at MIT to use machine
+            We have created a computational pipeline for analysing cellular-scale functional networks.  This pipeline brings together methods from many areas of network science including
+methods used to analyse regional or whole brain networks. We apply these metrics to analysing our MEA recordings and calcium imaging of spontaneous activity in our neuronal cultures.
+We are currently testing our pipeline with data from our collaborators. For our calcium imaging network analysis, we have been collaborating the ALFA group at MIT to use machine
 learning to accelerate the analysis. Our collaborators on the pipeline development include: Tim Sit, Erik Hemberg, Una-May O'Rielly.
              
      </p>
@@ -196,7 +197,7 @@ learning to accelerate the analysis. Our collaborators on the pipeline developme
 
 <p><a href="">Real-time detection of network properties from spontaneous activity</a><br>
 
-        Using metrics from control theory and graph theory, we are able to identify nodes that have a larger influence on the overall network activity 
+        Using metrics from control theory and graph theory, we can identify nodes that have a larger influence on the overall network activity 
 observed than other nodes in the network.  We are looking for team members with computer science, engineering and/or neuroscience backgrounds who are
 interested in creating a real-time implementation of our network analysis pipeline during microelectrode array (MEA) recordings or calcium imaging. This
 would allow us to first record network activity and once high and low influence nodes are identified to selectively stimulate these nodes--either with 
