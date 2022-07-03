@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en-uk">
+    <head>
+        <link rel="icon" type="image/png" href="/graphics/como.png" /> 
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Synapse and Network Development Group</title>
+        <style>
+
+    html, body {
+        font-family: 'Raleway', sans-serif;
+    }
+
+    h1, h2, h3 {
+        font-family: 'Montserrat', sans-serif;
+    }
+
+</style>
+
+
+<link rel="stylesheet" href="https://sand-lab.github.io/main.css">
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway">
+
+<script defer src="https://friconix.com/cdn/friconix.js"> </script>
+
+<script defer>
+ 
+function menu() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className = "topnav responsive slidedown";
+  } else {
+    x.className = "topnav";
+  }
+}
+
+function menu_off() {
+  var x = document.getElementById("myTopnav");
+  x.className = "topnav";
+}
+
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  var topbutton = document.getElementById("topbutton");
+  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+    topbutton.style.visibility = "visible";
+    topbutton.style.color = "#666";
+    topbutton.style.transform = "translateX(-50%)";
+  } else {
+    topbutton.style.visibility = "hidden";
+    topbutton.style.color = "#fff";
+    topbutton.style.transform = "translateX(-400%)";
+  }
+}
+
+
+function topFunction() {
+  document.body.scrollTop = 0; 
+  document.documentElement.scrollTop = 0; 
+}
+
+</script> 
+
+ <meta name="generator" content="Hugo 0.54.0" />
+   </head>
+
+    <body>
+         
+
+        <div class="topnav" id="myTopnav">
+            <div class="topnavcontainer">
+            <div class="topnavcenter">
+            
+            <a href="/" class=""><span style="margin-right:0.3em;"><i class="fi-xnluxl-home-small-solid"></i></span> Home</a>
+            
+            <a href="/people/" class=""><span style="margin-right:0.3em;"><i class="fi-xtluxl-brain-alt"></i></span> Members</a>
+                
+           <!--<a href="/people/" class=""><span style="margin-right:0.3em;"><i class="fi-xnluxl-user-circle-solid"></i></span> Members</a>-->
+                
+
+            <a href="/projects/" class="active"><span style="margin-right:0.3em;"><i class="fi-xnluxl-network-wide"></i></span> Projects</a>
+            
+  
+            <a href="/resources/" class=""><span style="margin-right:0.3em;"><i class="fi-xnluxl-network-wide"></i></span> Resources</a>
+
+            <a href="/support/" class=""><span style="margin-right:0.3em;"><i class="fi-xnluxl-network-wide"></i></span> Support our work</a>    
+                
+                
+            <a href="/contact/" class=""><span style="margin-right:0.3em;"><i class="fi-xnluxl-synapse-wide"></i></span> Contact</a>
+            
+           
+            </div>
+
+            <div class="topnavright">
+       
+            
+            <a href="https://github.com/sand-lab/"><i class="fi-xnsxxl-github"></i></a>
+            
+            
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="menu()">
+                <i class="fi-xnluxl-three-bars"></i>
+            </a>
+            </div>
+        </div>
+
+        <div class="topimg"></div>
+        <div class="topbuttonbar"></div>
+        <div class="topbuttonbar_transparent"></div>
+        <div class="topbutton" onclick="topFunction()" id="topbutton"><i class="fi-ctlux2-chevron"></i></div>
+        <div class="main" id="main" style="margin-top:3em;" onclick="menu_off()">
+           <img src="https://sand-lab.github.io/graphics/sand_logo.jpg" alt="Lab logo" style="width:30%">
+        <h1>Projects</h1>
+
+            <p> Our aim is to elucidate how synaptic dysfunction in neurodevelopmental disorders alters the development of functional networks at the cellular scale.
+                Our approach integrates tools from neurophysiology, neuroanatomy, stem cell biology, genomics, computational neuroscience, applied math, engineering and computer science.
+                We are always looking for team members and collaborators to join us in investigating network development at the cellular scale.</p>
+                
+            <h3>Current research</h3>   
+            
+          <div class="item">       
+
+    <p><a href="">Effect of Mecp2 deficiency on functional connectivity in developing cortical networks</a></br>
+          
+           Loss of Mecp2, the cause of Rett syndrome and some cases of autism, leads to a devastating decline in cognitive, motor and sensory function
+            in infancy.  Mecp2-deficient mice also show a postnatal decline in behavioral, motor and sensory function.  Investigations at the synaptic level reveal that loss of Mecp2 has
+            opposing effects on the development of excitatory and inhibitory neuronal populations (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4670611/">Mierau et al, Biol Psych, 2015 epub</a>).  To understand how these synaptic changes alter 
+            network development at the cellular scale, we are using microelectrode array (MEA) recording and two-photon calcium imaging of spontaneous network activity in Mecp2-deficient and wild-type  
+            cortical cultures.  We used methods from network science, including graph and control theory, to understand the effects on the 
+            topology of the network and roles of individual neurons in the network activity over early development in vitro.  We are also investigating network dynamics to determine whether there
+            are changes in the network topology and/or nodal roles on the seconds-to-minutes scale our recordings.  This research will help us understanding how information processing is impaired at the cellular scale 
+            and provide a cellular-scale platform for testing novel therapeutic strategies.  Our collaborators include: 
+            Bianca Dumitrascu, Stephen Eglen, Guillaume Hennequin, Ole Paulsen, Manuel Schroeter, Tim Sit, and Sinead Williamson.  This work is supported by the
+            American Academy of Neurology (S.M.) and Medical Research Council DTP (A.D.).
+    </p>
+         <img src="network_development.png">
+</div>
+    
+     <div class="item">  
+    
+    <p><a href="">Network function in a human cerebral organoid model of Rett syndrome</a></br>
+          
+           Human cerebral organoids offer a human-derived cellular platform for investigating underlying mechanisms of neurologic disease and testing novel therapeutic
+strategies.  From our studies in Mecp2-deficient mice, we know that network development is altered.  Through an interdisciplinary collaboration with Andras Lakatos, 
+Madeline Lancaster, and Ole Paulsen, we are generating novel Mecp2-deficient air-liquid interface cerebral organoids (ALI-COs).  We will use these organoids to study
+network dysfunction in human-derived cortical networks and how this may contribute to epilepsy and cognitive dysfunction in Rett syndrome.  This work is supported by the Evelyn Trust.  
+<br><i>Image: MEA recording from an ALI-CO and network plot we made for Giandomenico, et al. (2019) Nat Neurosci (see published collaborations below).</i>
+    </p>
+         <img src="ALICO.jpg">
+</div>
+    
+    <div class="item">
+
+    <p><a href="">Novel cell-type specific mediators of NMDA receptor maturation</a></br>
+    
+            We have combined laser capture microdissection and single cell RNA sequencing to identify novel regulators of synpatic NMDA receptor development 
+    with cell-type, layer- and region-specificity in the cortex.  We are validating our findings with spatial transcriptomics.  This research is important for 
+    understanding the mechanisms and for modulating the development of excitatory synaptic transmission with cell-type specificity. This will provide novel targets
+    for treating Rett syndrome and other neurologic and psychiatric disorders in which NMDA receptor dysfunction is implicated.  Our collaborators include: Martin Hemberg,
+    Jimmy Lee, Ole Paulsen, and Omer Bayraktar.  This work was suppored by the European Commission Horizons 2020 MSCA (S.M.) and the Wellcome Trust Sanger Institute (M.H., O.B.).
+             
+    </p>
+
+</div>
+           <div class="item">
+
+    <p><a href="">Cellular scale networks analysis pipeline</a></br>
+    
+            We have created a computational pipeline for analysing cellular-scale functional networks.  This pipeline brings together methods from many areas of network science including
+methods used to analyse regional or whole brain networks. We apply these metrics to analysing our MEA recordings and calcium imaging of spontaneous activity in our neuronal cultures.
+We are currently testing our pipeline with data from our collaborators. For our calcium imaging network analysis, we have been collaborating the ALFA group at MIT to use machine
+learning to accelerate the analysis. Our collaborators on the pipeline development include: Tim Sit, Erik Hemberg, Una-May O'Reilly.
+             
+     </p>
+<img src="network_pipeline.png">
+
+</div>
+
+        <h3>Currently recruiting team members for the following projects</h3>   
+
+ <div class="item">
+<h2 id="SpaiCon"></h2>
+<p><a name="SpaiCon" href="https://partners.taleo.net/careersection/bwh/jobdetail.ftl?job=3190471">Combining cellular-scale neuronal network recordings with spatial transcriptomics</a><br>
+    We are seeking a talented postdoctoral scientist to join our exciting interdisciplinary research at the intersection of 
+    neurophysiology, single cell genomics, human stem cell biology, and network science. We are addressing how genetic changes alter 
+    neural network function during early development. Using iPSC-derived human cortical cultures, we now have the ability to understand 
+    how network function is altered at the cellular scale in a human in vitro model of brain development. In this project, we will grow 
+    human-derived neuronal cultures and record the neuronal network activity over early development using microelectrode arrays (MEA) 
+    and calcium imaging. Through an exciting collaboration with the Hemberg group (BWH), Vanessa Jane Hall (U of Copenhagen, Denmark) 
+    and Yannick Coffinier (U of Lille, France), our aim is to combine MEA recordings with spatial transcriptomics using MERFISH. This would provide 
+    a novel platform for understanding how gene expression correlates with neuronal network activity and how these processes are altered 
+    in neurological disorders. To apply, please see our <a href="https://partners.taleo.net/careersection/bwh/jobdetail.ftl?job=3190471">job posting on the BWH website</a>.
+   
+</p>
+     
+     <img src="meamerfish.PNG">
+     
+</div>
+
+ <div class="item">
+
+<p><a href="">Network dysfunction in human cellular models of autism spectrum disorder (ASD)</a><br>
+        Using iPSC-derived neuronal cultures from people with genetic causes of ASD, we will compare the development of functional connectivity in the
+    cellular scale networks using MEA recordings and calcium imaging. One of the key questions is what network features multiple genetic causes of ASD,
+    for example those that alter synaptic NMDA receptor function, may share. We are looking for team member with and/or desire to develop expertise in
+    initiation and maintainance of neuronal cultures (2D and 3D), electrophysiology, imaging, and/or computational analysis.  
+   
+</p>
+     
+     <img src="hIPSCder_neuronalnetworks.png">
+     
+</div>
+
+ <div class="item">
+
+<p><a href="">Real-time detection of network properties from spontaneous activity</a><br>
+
+        Using metrics from control theory and graph theory, we can identify nodes that have a larger influence on the overall network activity 
+observed than other nodes in the network.  We are looking for team members with computer science, engineering and/or neuroscience backgrounds who are
+interested in creating a real-time implementation of our network analysis pipeline during microelectrode array (MEA) recordings or calcium imaging. This
+would allow us to first record network activity and once high and low influence nodes are identified to selectively stimulate these nodes--either with 
+electrical or optogenetic stimulation--to validate these predictions.  This approach could also be used to test novel therapeutic strategies for restoring
+network function in our cellular models of autism spectrum disorder and other neurologic disorders.
+
+</p>
+</div>
+
+        <h3>Published collaborations where we <br>contributed our electrophysiology and network expertise</h3>   
+
+ <div class="item">
+
+     <p>Giandomenico SL, Mierau SB, Gibbons GM, Wenger LMD, Masullo L, Sit T, Sutcliffe M, Boulanger J, Tripodi M, Derivery E, Paulsen O, Lakatos A, Lancaster MA. <a href="https://pubmed.ncbi.nlm.nih.gov/34675437/">Cerebral organoids at the air-liquid interface generate diverse nerve tracts with functional output.</a> Nat Neurosci. 2019 Apr;22(4):669-679.</p></div>
+         
+    <div class="item">     
+     <p>Szebényi K, Wenger LMD, Sun Y, Dunn AWE, Limegrover CA, Gibbons GM, Conci E, Paulsen O, Mierau SB, Balmus G, Lakatos A. <a href="https://pubmed.ncbi.nlm.nih.gov/30886407/">Human ALS/FTD brain organoid slice cultures display distinct early astrocyte and targetable neuronal pathology.</a> Nat Neurosci. 2021 Nov;24(11):1542-1554.</p></div>
+
+
+     <br />
+   <hr />
+ <Br>
+  <Br>
+   <br>
+   <Br>
+ 
+    
+
+</div>
+    </div> 
+
+   
+    </body>
+
+
+</html>
