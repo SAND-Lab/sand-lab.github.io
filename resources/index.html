@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en-uk">
+    <head>
+        <link rel="icon" type="image/png" href="/graphics/como.png" /> 
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Synapse and Network Development Group</title>
+        <style>
+
+    html, body {
+        font-family: 'Raleway', sans-serif;
+    }
+
+    h1, h2, h3 {
+        font-family: 'Montserrat', sans-serif;
+    }
+
+</style>
+
+
+<link rel="stylesheet" href="https://sand-lab.github.io/main.css">
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway">
+
+<script defer src="https://friconix.com/cdn/friconix.js"> </script>
+
+<script defer>
+ 
+function menu() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className = "topnav responsive slidedown";
+  } else {
+    x.className = "topnav";
+  }
+}
+
+function menu_off() {
+  var x = document.getElementById("myTopnav");
+  x.className = "topnav";
+}
+
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  var topbutton = document.getElementById("topbutton");
+  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+    topbutton.style.visibility = "visible";
+    topbutton.style.color = "#666";
+    topbutton.style.transform = "translateX(-50%)";
+  } else {
+    topbutton.style.visibility = "hidden";
+    topbutton.style.color = "#fff";
+    topbutton.style.transform = "translateX(-400%)";
+  }
+}
+
+
+function topFunction() {
+  document.body.scrollTop = 0; 
+  document.documentElement.scrollTop = 0; 
+}
+
+</script> 
+
+ <meta name="generator" content="Hugo 0.54.0" />
+   </head>
+
+    <body>
+         
+
+        <div class="topnav" id="myTopnav">
+            <div class="topnavcontainer">
+            <div class="topnavcenter">
+            
+            <a href="/" class=""><span style="margin-right:0.3em;"><i class="fi-xnluxl-home-small-solid"></i></span> Home</a>
+            
+            <a href="/people/" class=""><span style="margin-right:0.3em;"><i class="fi-xtluxl-brain-alt"></i></span> Members</a>
+                
+           <!--<a href="/people/" class=""><span style="margin-right:0.3em;"><i class="fi-xnluxl-user-circle-solid"></i></span> Members</a>-->
+                
+
+            <a href="/projects/" class="active"><span style="margin-right:0.3em;"><i class="fi-xnluxl-network-wide"></i></span> Projects</a>
+            
+  
+            <a href="/resources/" class=""><span style="margin-right:0.3em;"><i class="fi-xnluxl-network-wide"></i></span> Resources</a>
+
+            <a href="/support/" class=""><span style="margin-right:0.3em;"><i class="fi-xnluxl-network-wide"></i></span> Support our work</a>    
+                
+                
+            <a href="/contact/" class=""><span style="margin-right:0.3em;"><i class="fi-xnluxl-synapse-wide"></i></span> Contact</a>
+            
+           
+            </div>
+
+            <div class="topnavright">
+       
+            
+            <a href="https://github.com/sand-lab/"><i class="fi-xnsxxl-github"></i></a>
+            
+            
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="menu()">
+                <i class="fi-xnluxl-three-bars"></i>
+            </a>
+            </div>
+        </div>
+
+        <div class="topimg"></div>
+        <div class="topbuttonbar"></div>
+        <div class="topbuttonbar_transparent"></div>
+        <div class="topbutton" onclick="topFunction()" id="topbutton"><i class="fi-ctlux2-chevron"></i></div>
+        <div class="main" id="main" style="margin-top:3em;" onclick="menu_off()">
+           <img src="https://sand-lab.github.io/graphics/sand_logo.jpg" alt="Lab logo" style="width:30%">
+
+        <h1>Resources</h1>
+
+            <p> Our aim is to elucidate how synaptic dysfunction in 
+neurodevelopmental disorders alters the development of functional 
+networks at the cellular scale. Our approach integrates tools from 
+neurophysiology, neuroanatomy, stem cell biology, genomics, 
+computational neuroscience, applied math, engineering and computer 
+science. Our research benefits from the many resources available from 
+the neuroscience and network science communities. We are also excited to
+ share the tools we have developed with other research groups.  We are 
+always looking for team members and collaborators to join us in 
+investigating network development at the cellular scale.</p>
+                
+            <h3>Code</h3>   
+            
+           <div class="item">
+
+    <p><a href="https://github.com/SAND-Lab/AnalysisPipeline">Microelectrode Array (MEA) Network Analysis Pipeline (MEA-NAP)</a><br></p>
+
+<p>SAND Github site for MEA-NAP download:<br>
+<a href="https://github.com/SAND-Lab/AnalysisPipeline">https://github.com/SAND-Lab/AnalysisPipeline</a></p>
+
+<p>Instruction Guide and Documentation for MEA-NAP:<br>
+<a href="https://analysis-pipeline.readthedocs.io/en/latest/introduction.html">https://analysis-pipeline.readthedocs.io/en/latest/system-requirements.html</a></p>
+
+<img src="network_pipeline.png"> <br>
+    
+<p><b> Purpose of the pipeline:</b><BR>
+We have created a computational pipeline to facilitate comparing the development of functional connectivity and 
+other network features at the cellular scale from MEA recordings of spontaneous neuronal activity in neuronal cultures.  This pipeline brings together 
+methods from many areas of network science including methods used to analyse regional or whole brain networks. We apply these metrics to analyse our MEA recordings of spontaneous activity in our neuronal cultures. We designed this diagnostic tool for batch analysis of MEA experiments so that all members of our group and collaborators, regardless of experience with computational tools or network science, could analyse cellular-scale functional networks in 2D and 3D rodent or human neuronal cultures. </p>
+
+<p><B>Applications for basic and translational research:</b><br>
+Alterations in synaptic function, and other cellular processes that 
+affect neuronal communication, can alter the trajectory of network 
+development.  However, currently there is a gap for tools for studying 
+network function at the cellular-scale accessible to cellular neuro- and
+ stem cell biologists working with 2D and 3D rodent and human neuronal 
+cultures. This pipeline combines methods for studying network function 
+using graph theoretical and other network metrics that are commonly used
+ at the whole brain level (e.g., fMRI data) and in other fields of 
+network science.  The aim of the pipeline is to facilitate comparisons 
+in network function at the cellular scale from MEA recordings.  Network 
+function at the cellular scale can provide a platform for testing new 
+therapeutic strategies including pharmacologic therapies and stimulating
+ specific nodes in the network to modulate network function.  </p>
+
+</div>
+
+        <h3>Protocols</h3>   
+
+ <div class="item">
+<h2 id="protocols"></h2>
+<p><a name="protocols" href="">This section is under construction.</a><br>
+    Stay tuned.
+   
+</p>
+     
+</div>
+
+
+        <h3>Other resources</h3>   
+
+ <div class="item">
+
+<h2 id="protocols"></h2>
+<p><a name="protocols" href="">This section is under construction.</a><br>
+    Stay tuned.
+   
+</p>
+     
+</div>
+
+     <br>
+   <hr>
+ <br>
+  <br>
+   <br>
+   <br>
+ 
+    
+
+</div>
+     
+
+   
+    
+
+
+
+</body></html>

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en-uk">
+    <head>
+        <link rel="icon" type="image/png" href="/graphics/como.png" /> 
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Synapse and Network Development Group</title>
+        <style>
+
+    html, body {
+        font-family: 'Raleway', sans-serif;
+    }
+
+    h1, h2, h3 {
+        font-family: 'Montserrat', sans-serif;
+    }
+
+</style>
+
+
+<link rel="stylesheet" href="https://sand-lab.github.io/main.css">
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway">
+
+<script defer src="https://friconix.com/cdn/friconix.js"> </script>
+
+<script defer>
+ 
+function menu() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className = "topnav responsive slidedown";
+  } else {
+    x.className = "topnav";
+  }
+}
+
+function menu_off() {
+  var x = document.getElementById("myTopnav");
+  x.className = "topnav";
+}
+
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  var topbutton = document.getElementById("topbutton");
+  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+    topbutton.style.visibility = "visible";
+    topbutton.style.color = "#666";
+    topbutton.style.transform = "translateX(-50%)";
+  } else {
+    topbutton.style.visibility = "hidden";
+    topbutton.style.color = "#fff";
+    topbutton.style.transform = "translateX(-400%)";
+  }
+}
+
+
+function topFunction() {
+  document.body.scrollTop = 0; 
+  document.documentElement.scrollTop = 0; 
+}
+
+</script> 
+
+ <meta name="generator" content="Hugo 0.54.0" />
+   </head>
+
+    <body>
+         
+
+        <div class="topnav" id="myTopnav">
+            <div class="topnavcontainer">
+            <div class="topnavcenter">
+            
+            <a href="/" class=""><span style="margin-right:0.3em;"><i class="fi-xnluxl-home-small-solid"></i></span> Home</a>
+            
+            <a href="/people/" class=""><span style="margin-right:0.3em;"><i class="fi-xtluxl-brain-alt"></i></span> Members</a>
+                
+           <!--<a href="/people/" class=""><span style="margin-right:0.3em;"><i class="fi-xnluxl-user-circle-solid"></i></span> Members</a>-->
+                
+
+            <a href="/projects/" class="active"><span style="margin-right:0.3em;"><i class="fi-xnluxl-network-wide"></i></span> Projects</a>
+            
+  
+            <a href="/resources/" class=""><span style="margin-right:0.3em;"><i class="fi-xnluxl-network-wide"></i></span> Resources</a>
+
+            <a href="/support/" class=""><span style="margin-right:0.3em;"><i class="fi-xnluxl-network-wide"></i></span> Support our work</a>    
+                
+                
+            <a href="/contact/" class=""><span style="margin-right:0.3em;"><i class="fi-xnluxl-synapse-wide"></i></span> Contact</a>
+            
+           
+            </div>
+
+            <div class="topnavright">
+       
+            
+            <a href="https://github.com/sand-lab/"><i class="fi-xnsxxl-github"></i></a>
+            
+            
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="menu()">
+                <i class="fi-xnluxl-three-bars"></i>
+            </a>
+            </div>
+        </div>
+
+        <div class="topimg"></div>
+        <div class="topbuttonbar"></div>
+        <div class="topbuttonbar_transparent"></div>
+        <div class="topbutton" onclick="topFunction()" id="topbutton"><i class="fi-ctlux2-chevron"></i></div>
+        <div class="main" id="main" style="margin-top:3em;" onclick="menu_off()">
+           <img src="https://sand-lab.github.io/graphics/sand_logo.jpg" alt="Lab logo" style="width:30%">
+        <h1>Support our work</h1>
+
+            <p> Our aim is to elucidate how synaptic dysfunction in neurodevelopmental disorders alters the development of functional networks at the cellular scale. Our approach integrates tools from neurophysiology, neuroanatomy, stem cell biology, genomics, computational neuroscience, applied math, engineering and computer science. Our research benefits from the many resources available from the neuroscience and network science communities. We are also excited to share the tools we have developed with other research groups.  We are always looking for team members and collaborators to join us in investigating network development at the cellular scale.</p>
+                
+            <h3>Fund our research</h3>   
+            
+           <div class="item">
+
+    <p><a href="https://giving.brighamandwomens.org/">Brigham and Women's Hospital Giving Page</a></br></p>
+    
+<p> Your donations will help us continue our research to better understand and treat neurological disorders including autism spectrum disorder (ASD), Rett syndrome and other neurodevelopmental disorders.</p>
+
+<p> How to donate:</br>
+(1) Go to BWH Giving Page at <a href="https://giving.brighamandwomens.org/">https://giving.brighamandwomens.org/</a>.<Br><br>
+(2) For "How would you like your gift to be designated?", select "Other" from the drop-down menu.<Br><Br>
+(3) Write "Mierau Lab" in the box for our Synaptic and Network Development (SAND) research group. <br><Br>
+
+<img src="SupportSAND.PNG"> </br>
+
+</div>
+
+		<h3>Collaborate with us</h3>   
+            
+           <div class="item">
+
+    <p><a href="">Student volunteers</a></br></p>
+    
+<p> Students interested in joining in our research should contact our group leader, Dr. Susanna Mierau at smierau[at]bwh.harvard.edu. MIT and Harvard undergraduates may be eligible for college credit, work-study or other funded research programs. Medical students, residents and fellows are also most welcome to join.</p>
+
+  <div class="item">
+
+    <p><a href="">Computer programmers</a></br></p>
+    
+<p> People with programming experience who are interested in helping us translate our MATLAB-based pipeline to a free, open source programming language such as Python or Julia, please contact Dr. Mierau. This would help our tools reach a wider neuroscience community.</p>
+
+
+</div>
+
+  <div class="item">
+
+    <p><a href="">High performance computers</a></br></p>
+    
+<p> People with gaming or other high performance computers who are interested in donating computer processing time to our research, please let us know.  There are a growing number of exciting collaborations where people in the community with computing resources can donate time for neurological research batch analysis to run while at work, for example.  Please contact Dr. Mierau if you are interested. All of our data processing is on MEA spike trains or images of neuronal cultures and does not contain any sensitive data.</p>
+
+
+</div>
+
+     <br />
+   <hr />
+ <Br>
+  <Br>
+   <br>
+   <Br>
+ 
+    
+
+</div>
+    </div> 
+
+   
+    </body>
+
+
+</html>
