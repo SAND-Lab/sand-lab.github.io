@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en-uk">
+    <head>
+         <link rel="icon" type="image/png" href="/graphics/como.png" />
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Synapse and Network Development Group</title>
+        <style>
+
+    html, body {
+        font-family: 'Raleway', sans-serif;
+    }
+
+    h1, h2, h3 {
+        font-family: 'Montserrat', sans-serif;
+    }
+
+</style>
+
+
+<link rel="stylesheet" href="https://sand-lab.github.io/main.css">
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway">
+
+<script defer src="https://friconix.com/cdn/friconix.js"> </script>
+
+<script defer>
+ 
+function menu() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className = "topnav responsive slidedown";
+  } else {
+    x.className = "topnav";
+  }
+}
+
+function menu_off() {
+  var x = document.getElementById("myTopnav");
+  x.className = "topnav";
+}
+
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  var topbutton = document.getElementById("topbutton");
+  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+    topbutton.style.visibility = "visible";
+    topbutton.style.color = "#666";
+    topbutton.style.transform = "translateX(-50%)";
+  } else {
+    topbutton.style.visibility = "hidden";
+    topbutton.style.color = "#fff";
+    topbutton.style.transform = "translateX(-400%)";
+  }
+}
+
+
+function topFunction() {
+  document.body.scrollTop = 0; 
+  document.documentElement.scrollTop = 0; 
+}
+
+</script> 
+
+ <meta name="generator" content="Hugo 0.54.0" />
+   </head>
+
+    <body>
+         
+
+        <div class="topnav" id="myTopnav">
+            <div class="topnavcontainer">
+            <div class="topnavleft">
+            
+            <a href="/" class=""><span style="margin-right:0.3em;"><i class="fi-xnluxl-home-small-solid"></i></span> Home</a>
+            
+            <a href="/people/" class="active"><span style="margin-right:0.3em;"><i class="fi-xtluxl-brain-alt"></i></span> Members</a>
+                
+           <!--<a href="/people/" class=""><span style="margin-right:0.3em;"><i class="fi-xnluxl-user-circle-solid"></i></span> Members</a>-->
+                
+
+            <a href="/projects/" class=""><span style="margin-right:0.3em;"><i class="fi-xnluxl-network-wide"></i></span> Projects</a>
+            
+                
+                
+            <a href="/contact/" class=""><span style="margin-right:0.3em;"><i class="fi-xnluxl-synapse-wide"></i></span> Contact</a>
+            
+           
+            </div>
+
+            <div class="topnavright">
+       
+            
+            <a href="https://github.com/sand-lab/"><i class="fi-xnsxxl-github"></i></a>
+            
+            
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="menu()">
+                <i class="fi-xnluxl-three-bars"></i>
+            </a>
+            </div>
+        </div>
+
+        <div class="topimg"></div>
+        <div class="topbuttonbar"></div>
+        <div class="topbuttonbar_transparent"></div>
+        <div class="topbutton" onclick="topFunction()" id="topbutton"><i class="fi-ctlux2-chevron"></i></div>
+        <div class="main" id="main" style="margin-top:3em;" onclick="menu_off()">
+          
+          
+<div><a href=".." style="font-size: 200%; color: #aaaaaa;"><i class="fi-ctllxm-chevron"></i></a></div>
+    <br>
+    
+    <div><img class="img-circle" style="height: 10em;" src="/people/mona/mona.jpg"/></div>
+    
+            <h2> Mona Khodary </h2>
+   <h3> Graduate Student<br>University of Cambridge </h3>
+            
+           
+
+          <div class="text-justify">
+            <p> I am a Master's student in the MPhil for Basic and Translational Neuroscience.  In my master's thesis, I compared the development of 
+            average controllability in MEA recordings from cortical cultures and experimentally validated this metric at the cellular-scale by electrically stimulating
+            individual nodes predicted to have high or low controllability based on their spontaneous activity.  This project will for the groundwork
+            for future experiments in the group to drive network activity neuronal networks during MEA recordings.</p>
+</div>
+
+    </div> 
+
+      </body>
+
+
+</html>
